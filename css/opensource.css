@@ -1,0 +1,71 @@
+h1 {
+  padding : 50px 0 1em 120px;
+  font-size : 180%;
+  /*background : url('opensource-logo.png') no-repeat left center; */
+  background : url('https://wiki.soit.sk/images/soit_logo.png') no-repeat left center;
+  height : 50px;
+}
+
+h2 {
+  margin-bottom : 1em;
+  font-size : 120%;
+}
+
+a {
+  color : #ff5e99;
+}
+
+#about {
+  margin-top : 1em;
+  margin-bottom : 1.5em;
+  font-style : italic;
+  font-size : 115%;
+  color : #999;
+}
+
+#about a {
+  color : #888;
+  font-weight : bold;
+}
+
+#sidebar .subtitle {
+  margin-bottom : 1em;
+}
+
+#sidebar ul {
+  margin : 0 0 0 1em;
+}
+
+#sidebar ul li {
+  list-style-type : square;
+}
+
+#sidebar ul li a {
+}
+
+#slideshow {
+  height : 400px;
+  overflow: hidden;
+}
+
+#slideshow p {
+  margin : 1em 0;
+}
+
+#toolbar {
+  text-align : right;
+  margin-top : 1em;
+}
+
+#toolbar a {
+  margin-right : 0.5em;
+  font-weight : bold;
+  font-size : 130%;
+}
+
+#footer {
+  margin-top : 3em;
+  text-align : right;
+  font-size : 90%;
+  font-style : italic;
+}
