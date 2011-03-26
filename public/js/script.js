@@ -23,10 +23,10 @@ $(document).ready(function(){
   $("#slideshow form#join-us").submit(function(){
     $.post("/stories", $(this).serialize(), function(data){
       $("#slideshow form#join-us").removeClass('active').hide();
-      $("#notice").html(data)
+      $("#notice").show().html(data)
     });
-    $("#slideshow div.slideshow").show();
-    $("#toolbar button").show();
+    //$("#slideshow div.slideshow").show();
+    //$("#toolbar button").show();
     return false;
   })
 
