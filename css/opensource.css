@@ -69,3 +69,15 @@ a {
   font-size : 90%;
   font-style : italic;
 }
+
+#slideshow form#join-us label {
+  display : block;
+  color : #777;
+  font-size : 90%;
+  font-style : italic;
+}
+
+#slideshow form#join-us input.text {
+  width : 95%;
+  border : 1px solid #aaa;
+}

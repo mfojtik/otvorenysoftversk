@@ -107,7 +107,7 @@
 
       </div>
     <div id="slideshow" role="slideshow" class="grid_8">
-      <div class="slideshow">
+      <div class="slideshow" style="display:none">
         <article>
          <h2><a href='#'>Michal Fojtik, Software Engineer, Red Hat Czech</a></h2>
           <p>
@@ -148,9 +148,18 @@
           </p>
         </article>
       </div>
-      <p class="toolbar">
-        <a href="#"></a>
-      </p>
+      <form id="join-us" action="/stories" method="post">
+        <p>
+          <label for="name">Vase meno alebo nazov organizacie:</label>
+          <input type="text" class="text" name="name" placeholder="Meno, nazov firmy alebo
+          organizacia..."/>
+        </p>
+        <p>
+          <label for="text">Strucny popis toho akym sposobom vyuzivate otvoreny
+          software:</label>
+          <textarea name="text" cols="90" rows="25"></textarea>
+        </p>
+      </form>
     </div>
     <div id="toolbar" class="prefix_3 grid_9">
       <a href="#">Pripojit sa!</a>
